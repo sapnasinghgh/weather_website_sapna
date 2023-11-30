@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <h1>Check your city Weather by enter Your city name </h1>
+
+  <main >
+
+    <div class="row">
+         <form action="">
+                 <input type="search" id="search" placeholder="Enter a city name...">
+
+           </form>
+     </div>
+
+     <div class="error">
+      <p>Invalid city name</p>
+     </div>
+
+  <div class="row" id="weather">
+         
+          <div>
+               <img src="cloudy.png" alt="unload" >
+                 <h3>0℃ </h3> 
+                <h4>about</h4>
+                <h2>city</h2>
+          </div>
+  </div>
+
+
+  </main>
+  <script src="app.js"></script>    
+
+
+  <!-- https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}  -->
+</body>
+</html>
